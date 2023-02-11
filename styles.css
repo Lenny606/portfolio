@@ -28,12 +28,12 @@ nav {
   width: 50%;
 }
 
-nav li:last-child a {
+.nav-links {
   text-decoration: none;
   color: inherit;
 }
 
-nav li:last-child a:visited {
+.nav-links :visited {
   /* color: inherit; */
   text-decoration: none;
 }
@@ -51,5 +51,22 @@ section {
   padding: 1em;
 }
 
-img {
+li {
+  list-style-type: none;
+}
+
+.skills_container {
+  width: 100%;
+}
+.skills_list {
+  display: flex;
+  justify-content: space-around;
+}
+.skills_icon {
+  width: 2em;
+  /* padding: 4px; */
+}
+
+footer {
+  background-color: var(--colorLinksFooter);
 }
