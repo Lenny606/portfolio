@@ -1,3 +1,55 @@
+/* colors Salmon to Aqua */
+:root {
+  --color1: #e27c7c;
+  --color2: #a86464;
+  --colorText: #6d4b4b;
+  --colorLinksHeader: #503f3f;
+  --color3: #333333;
+  --colorLinksFooter: #466964;
+  --colorSecondary: #599e94;
+  --colorPrimary: #6cd4c5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  background-color: var(--colorSecondary);
+  color: var(--colorLinksHeader);
+}
+
 nav {
-  color: red;
+  display: flex;
+  justify-items: flex-end;
+  padding: 1em;
+  width: 50%;
+}
+
+nav li:last-child a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav li:last-child a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  background-color: var(--colorPrimary);
+  color: var(--colorText);
+}
+
+section {
+  display: flex;
+  width: 60%;
+  padding: 1em;
+}
+
+img {
 }
