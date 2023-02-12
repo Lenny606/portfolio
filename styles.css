@@ -51,6 +51,15 @@ section {
   padding: 1em;
 }
 
+/* #projects {
+  display: flex;
+  flex-flow: column;
+} */
+.projects_container {
+  display: flex;
+  justify-content: start;
+}
+
 li {
   list-style-type: none;
 }
@@ -69,4 +78,12 @@ li {
 
 footer {
   background-color: var(--colorLinksFooter);
+}
+
+.screenshot_invisible {
+  visibility: hidden;
+}
+
+.screenshot_visible {
+  visibility: visible;
 }
