@@ -13,6 +13,7 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -48,16 +49,28 @@ main {
 section {
   display: flex;
   width: 60%;
+  margin: 3em auto;
   padding: 1em;
 }
 
-/* #projects {
+.about-me_title {
+  margin-top: 4em;
+}
+
+#projects {
   display: flex;
   flex-flow: column;
-} */
+}
+.projects_title {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
 .projects_container {
   display: flex;
-  justify-content: start;
+  margin: 0 10px;
+  justify-content: space-around;
+  cursor: pointer;
 }
 
 li {
@@ -87,3 +100,14 @@ footer {
 .screenshot_visible {
   visibility: visible;
 }
+
+/* ----------contacts.html--------------- */
+
+#contacts {
+  height: 89.6vh;
+}
+
+/* .contacts_header,
+.contacts_footer {
+  height: 6.5vh;
+} */
