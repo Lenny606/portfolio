@@ -1,0 +1,34 @@
+{
+  "bio": {
+    "description": ""
+  },
+
+  "projects": {
+    "first": {
+      "description": "First project",
+      "img": "url: "
+    },
+    "second": {
+      "description": "Second project",
+      "img": "url: "
+    },
+    "third": {
+      "description": "third project",
+      "img": "url: "
+    },
+    "fourth": {
+      "description": "Fourth project",
+      "img": "url: "
+    }
+  },
+
+  "techstack": {
+    "language": {
+      "html": "HMTL",
+      "javascript": "javascript"
+    },
+    "tools": {
+      "git": "git"
+    }
+  }
+}
